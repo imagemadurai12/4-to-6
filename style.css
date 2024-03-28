@@ -1,98 +1,12 @@
-.rgb {
-    /* color: rgb(51, 15, 183); */
-    /* color: #330fb7; */
-    /* color: rgba(51,15,183,.5); */
-    /* color: hsl(252, 100%, 99%); */
-    /* color: hsla(252, 100%, 99%,.5); */
-    /* background-color: rgba(51,15,183,.5); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Rubik+Scribble&display=swap');
+
+.roboto {
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 400;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
-.alignment {
-    width: 600px;
-    /* background-color: lightblue; */
-    /* text-align: left; */
-    text-align: center;
-    color: black;
-    /* height: 300px; */
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
-}
-
-.alignment p {
-    /*text-align: left;
-   */
-    text-align: justify;
-    /*text-decoration: underline;
-   */
-    /*text-decoration: overline;
-   */
-    /*text-decoration: overline underline;
-   */
-    /*text-decoration:line-through;
-   */
-    /* text-decoration: line-through; */
-    text-indent: 80px;
-    text-decoration-color: red;
-    -moz-text-decoration-color: red;
-    -webkit-text-decoration-color: red;
-    -o-text-decoration-color: red;
-    /* text-transform: lowercase; */
-    /* text-transform: uppercase; */
-    text-transform: capitalize;
-    word-spacing: 30px;
-    line-height: 1.5;
-
-}
-
-/* 
-.alignment h1{
-    font-size: 100px;
-    text-shadow:10px 10px 20px rgba(0, 0, 0, 0),10px 10px 22px red;
-    letter-spacing:20px;
-}
-
-
-.alignment a {
-    color: black;
-    text-decoration: none;
-} */
-
-
-.parent {
-    width: 400px;
-    aspect-ratio: 1;
-    /* height: 300px; */
-    /* aspect-ratio: 16/9; */
-    /* height: 300px; */
-    background-color: rgba(205, 83, 83, 0.904);
-}
-
-.child {
-    width: 50%;
-    /* height: 20px; */
-    aspect-ratio: 1;
-    background-color: rgba(243, 188, 188, 0.904);
-}
-
-
-button {
-    width: 100px;
-    height: 50px;
-    background-color: seagreen;
-    color: white;
-    font-size: 20px;
-}
-
-
-.parent:hover .child{
-background-color: black;
-}
-/* pseudo selectors */
-button:hover {
-    box-shadow: 10px 10px 20px black;
-    background-color: lightgreen;
+.rubik {
+    font-family: 'Rubik Scribble', 'sans-serif';
+    font-weight: 400;
 }
